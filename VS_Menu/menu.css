@@ -1,0 +1,38 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+}
+.main {
+  background: #2a2138;
+  color: #cfc6dc;
+}
+.main a {
+  color: inherit;
+  text-decoration: none;
+}
+.main ul {
+  list-style: none;
+  padding-left: 0;
+}
+.main li {
+  padding: 1rem;
+}
+.main li:hover,
+.main .active {
+  background: #221a2e;
+  color: #fff;
+}
+.main .fas {
+  margin-right: 2rem;
+  width: 2rem;
+  text-align: left;
+}
+@media screen and (min-width: 768px) {
+  .main {
+    width: 20%;
+    height: 100vh;
+  }
+}
